@@ -1,7 +1,5 @@
 # TP1 — Réponses
-Réalisé par : _[Votre nom]_  
-Formateur : Boris Rose  
-Référence : Consignes du TP initial. fileciteturn0file0
+Réalisé par : David RADOM  
 
 ---
 
