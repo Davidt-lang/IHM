@@ -1,7 +1,5 @@
 # TP1 — Réponses
-Réalisé par : _[Votre nom]_  
-Formateur : Boris Rose  
-Référence : Consignes du TP initial. fileciteturn0file0
+Réalisé par : David RADOM  
 
 ---
 
@@ -68,69 +66,4 @@ Un **composant** est un élément UI encapsulé et réutilisable (bouton, champ 
 
 ---
 
-## 6) Boutons (design system) — primaire / secondaire / tertiaire et variantes d'états
-**Spécification (exemple)**
 
-- **Bouton primaire**  
-  - Usage : action principale (ex : "Soumettre", "Acheter")  
-  - Taille : 44–48 px hauteur recommandée  
-  - Texte : 16 px, weight 600  
-  - États (variants) : `default`, `hover`, `pressed`, `disabled`, `loading`  
-  - Feedback attendu : transition d'opacité et effet d'élévation (shadow) + cursor `pointer`.
-
-- **Bouton secondaire**  
-  - Usage : action moins prioritaire (ex : "Annuler")  
-  - Style : outline ou background faible  
-  - États : mêmes variants que primaire.
-
-- **Bouton tertiaire**  
-  - Usage : actions contextuelles (lien textuel)  
-  - Style : texte uniquement, underline optionnel  
-  - États : `default`, `hover`, `disabled`.
-
-**Implémentation Figma (variantes)**  
-- Créer un composant `Button` avec **Variants** pour `type` (primary/secondary/tertiary) et `state` (default/hover/pressed/disabled/loading).  
-- Définir tokens pour couleurs, espaces et typographie dans `Styles` (Text/Color/Effect).
-
----
-
-## 7) Wayfinding — définition et mise en œuvre
-**Définition**  
-Le *wayfinding* désigne l'ensemble des éléments qui aident l'utilisateur à se repérer et à se diriger dans une interface (navigation, repères visuels, feedback d'état, titres, fil d'Ariane).
-
-**Implémentation dans l'interface**  
-- **Structure claire de navigation** : barre nav principale, sous‑menus logique, breadcrumb (fil d'Ariane).  
-- **Indicateurs d'état** : item actif sur la navigation, titre de page visible, microcopy d'aide.  
-- **Points de repère visuels** : icônes constantes, couleurs cohérentes pour sections.  
-- **Accessibilité** : contrasts WCAG, focus visible (outline).  
-- Ajouter `breadcrumbs` sur les pages profondes et un `side-menu` avec item actif mis en évidence.
-
----
-
-## 8) Affordance d'un bouton (Don Norman) — comment s'assurer de l'affordance ?
-**Conseils concrets**  
-- **Rendre l'élément cliquable évident** : forme avec contours et ombre légère, taille suffisante.  
-- **Utiliser un libellé explicite** (verbe d'action) — ex : "Ajouter au panier".  
-- **Feedback instantané** : hover/pushed states, micro-animations, changement de curseur.  
-- **Proximité** : placer le bouton à proximité de l'objet/texte lié pour montrer l'action attendue.  
-- **Affordance perçue et réelle** : garantir que le comportement attendu (clic = action) se réalise (pas d'incertitude sur l'action).  
-- **Tests** : réaliser premiers tests utilisateurs pour vérifier que les utilisateurs reconnaissent le bouton comme actionnable.
-
----
-
-## 9) Checklist à ajouter au dépôt Git
-- `research/personas.md` — personas et synthèse interviews  
-- `research/user_stories.md` — user stories prioritaires  
-- `sketches/` — croquis scannés ou photos  
-- `figma_links.md` — liens vers les fichiers Figma et instructions d'accès (inclure observateurs)  
-- `design_system/buttons.md` — spécifications des boutons et tokens  
-- `README.md` — description du projet, étapes UCD réalisées et à réaliser
-
----
-
-### Remarques finales
-- J'ai suivi les consignes du TP et intégré les notions User Centered Design et Figma.  
-- Relisez l'orthographe avant dépôt (la consigne indique -3 points si >5 fautes).  
-- Si vous voulez, je peux générer automatiquement un exemple de `personas.md` et `user_stories.md` préremplis et un modèle de fichier `figma_links.md` à ajouter au dépôt.
-
----
