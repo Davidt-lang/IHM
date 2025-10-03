@@ -24,6 +24,8 @@ Un *besoin utilisateur* est une exigence ou une attente explicite ou implicite q
 5. **Test utilisateur** (usability testing, observation)  
 6. **Itération / Implémentation**
 
+lien pour regarder mon figma : https://www.figma.com/design/WxccHeO5P3RiLnQRyh5Yh2/exemple-projet?node-id=0-1&t=uM5jtmd7Rmdv1EUp-1
+
 **Étape actuelle (réponse fournie)**  
 Je me place **à l'étape 4 — Prototype (maquettage)**, en train de réaliser des maquettes sur Figma et préparer des tests utilisateurs (étape 5).  
 - Si vous **n'avez pas réalisé** les étapes 1–3, **réalisez-les maintenant** et ajoutez-les au dépôt git : `research/` (notes d'interviews, personas), `specs/` (user stories), `sketches/` (photos ou PDFs des croquis).  
